@@ -20,6 +20,7 @@
     <p id="description">
       Don't be shy, what's <strong>your</strong> ultimate <em>pie</em>?
     </p>
+    <div class="wrapper">
     <form id="survey-form">
       <div class="form_group">
         <label id="name-label" for="name">Name</label>
@@ -42,6 +43,7 @@
         />
       </div>
       <br>
+      <div class="form_group">
         <label for"pie-size">Pie size</label>
         <select id="dropdown" name="pie-size">
           <option value="small">small</option>
@@ -49,7 +51,9 @@
       <option value="large">large</option>
       <option value="extra-large">extra large</option>
     </select>
+    </div>
     <br>
+    <div class="form_group">
     <p>Pie base:</p>
     <div class="pie_base">
     <label for="white/blanca"> 
@@ -58,10 +62,40 @@
     <input id="BBQ" value="BBQ" type="radio" name="base">BBQ
   </label>
   <label for="traditional/red">
-  <input id="traditional/red" value="traditional/red" type="radio" name="base">traditional/red</label>
+  <input id="traditional-red" value="traditional/red" type="radio" name="base">traditional/red</label>
   <label for="pesto">
     <input id="pesto" value="pesto" type="radio" name="base">pesto</label>
   </div>
+  <div class="toppings"><p>Toppings (As many as you want!)</p>
+    <label for="Pepperoni"> 
+   <input id="Pepperoni" value="Pepperoni" type="checkbox" name="Toppings">Pepperoni 
+ </label><br>
+ <label for="sausage">
+   <input id="sausage" value="sausage"
+   type="checkbox" name="Toppings">Sausage</label><br>
+   <label for="bacon">
+    <input id="bacon" value="bacon"
+    type="checkbox" name="Toppings">Bacon</label><br>
+    <label for="chicken">
+      <input id="chicken" value="chicken"
+      type="checkbox" name="Toppings">Chicken</label><br>
+      <label for="olives">
+        <input id="olives" value="olives"
+        type="checkbox" name="Toppings">Olives</label><br>
+        <label for="mushrooms">
+          <input id="mushrooms" value="mushrooms"
+          type="checkbox" name="Toppings">Mushrooms</label>
+          <br>
+          <label for="peppers">
+            <input id="peppers" value="peppers"
+            type="checkbox" name="Toppings">Peppers</label><br>
+            <label for="onions">
+              <input id="onions" value="onions"
+              type="checkbox" name="Toppings">Onions</label>
+  </div>
+  <p id="description"> Did we miss anything? Let us know below!</p>
+  <textarea id="text-area" name="text-area" placeholder="Addional toppings, sauces, crust styles, etc!"></textarea>
     </form>
+    </div>
   </body>
 </html>

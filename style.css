@@ -1,23 +1,38 @@
-#title{
-    font-family: 'Bungee Spice', cursive;
-    text-align: center;
-    background-color: black;
-   
-   
-   
+* {
+  box-sizing: border-box;
+}
+#title {
+  font-family: "Bungee Spice", cursive;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.85);
+  margin: auto;
+  box-shadow: 0 0 10px #000;
 }
 
-#description{
-   
-    font-family: 'Permanent Marker', cursive;
-   color: white;
-    text-align: center;
-    font-size: x-large;
+#description {
+  font-family: "Permanent Marker", cursive;
+  color: white;
+  text-align: center;
+  font-size: x-large;
 }
-body{
-    background-image: url(pizza.jpg)
+body {
+  background-image: url(pizza.jpg);
 }
-form{
-    background-color: white;
-    
+.wrapper {
+  background-color: rgba(0, 0, 0, 0.85);
+  margin: auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #000;
+}
+.form_group {
+  font-family: "Permanent Marker", cursive;
+  color: white;
+}
+#text-area {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: 100px;
 }
