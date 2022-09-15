@@ -1,0 +1,23 @@
+#title{
+    font-family: 'Bungee Spice', cursive;
+    text-align: center;
+    background-color: black;
+   
+   
+   
+}
+
+#description{
+   
+    font-family: 'Permanent Marker', cursive;
+   color: white;
+    text-align: center;
+    font-size: x-large;
+}
+body{
+    background-image: url(pizza.jpg)
+}
+form{
+    background-color: white;
+    
+}
